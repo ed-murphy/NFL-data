@@ -13,12 +13,10 @@ Exploratory analysis of NFL data.
 
 ### 5. Activate the virtual environment.
 
-Run `pipenv sync --dev` if using repo for the first time. If a returning user, run `pipenv shell`.
+Run `pipenv sync --dev`, then run `pipenv shell`.
 
-### 6. (For now) Run the only script.
+### 6. Run the model.
 
-Run `python download_data.py`. This will provide output for the 2024 NFL season. (Season can be adjusted in the `download_data.py` script.)
-
-### 7. (For now) Take a look at the only output.
-
-Output has been stored in the "data" subdirectory.
+- Run `python download_data.py`.
+    - This will provide output for the 2024 NFL season. (Season can be adjusted in the `download_data.py` script.)
+    - Output will be stored in `NFL-data/data`.
